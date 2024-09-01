@@ -50,4 +50,61 @@ B).<br>
     c1.volume();
     }
 
+C).<br>
+
+    # include<iostream>
+    using namespace std;
+    class cuboid
+    {
+    private:
+    double h = 20.0,b = 13.0,l = 17.0;
+    public:
+    double volume()
+    {
+        double vol;
+        vol = h * b * l;
+        cout<<"Volume "<<vol<<endl;
+    }
+
+    };
+    int main()
+    {
+    cuboid c1;
+    c1.volume();
+    }
+
+D).<br>
+
+    # include<iostream>
+    using namespace std;
+    class cuboid
+    {
+    private:
+    double h = 17.0,b = 10.0 ,l = 27.0;
+    public:
+    double volume()
+    {
+        double vol;
+        vol = h * b * l;
+        return vol;
+    }
+
+    void disp(double vol)
+    {
+        cout<<"Volume "<<vol<<endl;
+
+    }
+
+    };
+    int main()
+    {
+    cuboid c1;
+    double v = c1.volume();
+    c1.disp(v);
+    }
+
+E).<br>
+
+    
+
 
