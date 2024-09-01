@@ -28,7 +28,7 @@ A).<br>
     cubiod c1;
     double vol=c1.h*c1.b*c1.l;
     cout<<"volume of the cubiod is :"<<vol;    
-    }<br>
+    }
 
 B).<br>
 
@@ -48,6 +48,6 @@ B).<br>
     {
     cuboid c1;
     c1.volume();
-    }<br>
+    }
 
 
