@@ -28,6 +28,26 @@ A).<br>
     cubiod c1;
     double vol=c1.h*c1.b*c1.l;
     cout<<"volume of the cubiod is :"<<vol;    
+    }<br>
+
+B).<br>
+
+    #include<iostream>
+    using namespace std;
+    class cuboid { 
+    public:
+    double h = 5.0,b = 3.0,l = 8.0;
+    double volume()
+    {
+        double vol = h * b * l;
+        cout<<"Volume "<<vol<<endl;
     }
+
+    };
+     int main()
+    {
+    cuboid c1;
+    c1.volume();
+    }<br>
 
 
